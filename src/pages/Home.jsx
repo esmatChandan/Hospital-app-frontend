@@ -9,7 +9,7 @@ import avatarIcon from "../assets/images/avatar-icon.png";
 import icon03 from "../assets/images/icon03.png";
 import { Link } from "react-router-dom";
 import { BsArrowRight } from "react-icons/bs";
-import featureImg from "../assets/images/feature-Img.png";
+import featureImg from "../assets/images/feature-img.png";
 
 import videoIcon from "../assets/images/video-icon.png";
 import About from "../components/About/About";
@@ -270,14 +270,14 @@ function Home() {
       {/* testimonial start */}
       <section>
         <div className="container">
-        <div className="xl:w-[470px] mx-auto">
+          <div className="xl:w-[470px] mx-auto">
             <h2 className="heading text-center"> Our Patient Say </h2>
             <p className="text_para text-center">
               World-Class care for everyone. Our health system offers unmatchad,
               expert health care.
             </p>
           </div>
-    <Testimonial/>
+          <Testimonial />
         </div>
       </section>
       {/* testimonial end */}
